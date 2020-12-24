@@ -1,6 +1,6 @@
 const App = () => {
 	return (
-		<div>
+		<Row>
 			<Tweet
 				username="shapirobd"
 				name="Brian Shapiro"
@@ -19,7 +19,7 @@ const App = () => {
 				date="December 22, 2020"
 				message="I love soccer! I've been playing all my life and I never want to quit!"
 			/>
-		</div>
+		</Row>
 	);
 };
 
