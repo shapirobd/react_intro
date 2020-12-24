@@ -1,8 +1,10 @@
 const App = () => {
 	return (
 		<div>
-			<FirstCompnent />
+			<FirstComponent />
 			<NamedComponent name={"Brian"} />
 		</div>
 	);
 };
+
+ReactDOM.render(<App />, document.getElementById("root"));
