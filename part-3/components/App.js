@@ -1,6 +1,6 @@
 const App = () => {
 	return (
-		<div>
+		<Row>
 			<Person name="Adam" age={13} hobbies={["football", "drawing"]} />
 			<Person
 				name="Blake"
@@ -12,7 +12,18 @@ const App = () => {
 				age={21}
 				hobbies={["birdwatching", "running", "piano"]}
 			/>
-		</div>
+			<Person name="Daniel" age={16} hobbies={["football", "drawing"]} />
+			<Person
+				name="Elizabeth"
+				age={27}
+				hobbies={["painting", "guitar", "working out"]}
+			/>
+			<Person
+				name="Francisco"
+				age={24}
+				hobbies={["birdwatching", "running", "piano"]}
+			/>
+		</Row>
 	);
 };
 

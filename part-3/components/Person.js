@@ -10,13 +10,5 @@ const Person = (props) => {
 		name = props.name.slice(0, 8 - props.name.length);
 	}
 	const hobbies = props.hobbies.map((hobby) => <li>{hobby}</li>);
-	return (
-		<div>
-			<p>Learn some information about this person</p>
-			<p>Name: {name}</p>
-			<p>Age: {props.age}</p>
-			<h3>{message}</h3>
-			<ul>{hobbies}</ul>
-		</div>
-	);
+	return <Card title={name} subtitle={message} text={hobbies} />;
 };
